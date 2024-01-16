@@ -8,8 +8,8 @@ import java.sql.Statement;
 public class ConexaoPostgresSQL {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/seu_banco_de_dados";
-        String usuario = "seu_usuario";
-        String senha = "sua_senha";
+        String usuario = "usuario";
+        String senha = "senha";
 
         try {
             // Estabelecer a conexão com o banco de dados PostgreSQL
